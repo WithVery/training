@@ -2,5 +2,9 @@
 pragma solidity ^0.8.13;
 
 contract HelloWorld {
-    string greet = "Hello World!";
+    string public greet = "Hello World!";
+
+    function greetMe() external view returns(string memory) {
+        return greet;
+    }
 }

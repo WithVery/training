@@ -4,7 +4,34 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"inputs": [],
+				"name": "greet",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "greetMe",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -33,11 +60,11 @@
 	},
 	"sources": {
 		"HelloWorld.sol": {
-			"keccak256": "0xa2dffdb3248cd18a6ede0b22d310c09731a90c666263d6d557da4574f1457d38",
+			"keccak256": "0xf91f6e66111339fb7b90305e4a672d5463db88854409d1856ddff7967aada9b3",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://f329f4b67b423a070f8029f698ba72a508f82bc886ea7bb8b6b3fdd7d270a7c2",
-				"dweb:/ipfs/QmdGWBdLE44pebA1YXUitQzoMyiyMvhd2u4544QTfmFDfg"
+				"bzz-raw://37576f23480db02755ee19340861d6cfc8090a38551f5856ef23eca2e1c96a81",
+				"dweb:/ipfs/QmRheJdg4tJJFbuFvr2ZyCU7Adnyd5Ree4k5kb5m9RqTiH"
 			]
 		}
 	},
